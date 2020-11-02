@@ -1,0 +1,15 @@
+{
+  "name": "etherlime-project",
+  "version": "1.0.0",
+  "description": "This is the default package.json generated for your project",
+  "main": "index.js",
+  "scripts": {
+    "ganache": "etherlime ganache",
+    "test": "etherlime test --runs 999"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "etherlime-lib": "^1.2.3"
+  }
+}
