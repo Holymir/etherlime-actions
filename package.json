@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "ganache": "etherlime ganache",
-    "test": "etherlime test --runs 999"
+    "test": "etherlime test --solcVersion 0.6 --runs 999"
   },
   "author": "",
   "license": "ISC",
