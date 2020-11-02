@@ -29,8 +29,18 @@ jobs:
           node-version: 9.5
 
       # Install and test
-      - name: Build And Deploy
+      - name: Install and run Ganache
         run: |
           npm install
           npm run ganache
+
+      # Runs a second Node
+      - name: Runs a Node
+        uses: actions/setup-node@v1
+        with:
+          node-version: 9.5
+
+      # Install and test
+      - name: Build And Deploy
+        run: |
           npm run test   
